@@ -1,0 +1,105 @@
+/* Geral */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navegação */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Formulários */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Status */
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.875rem;
+}
+
+.status-pendente { background-color: #ffc107; color: #000; }
+.status-aprovado { background-color: #28a745; color: #fff; }
+.status-rejeitado { background-color: #dc3545; color: #fff; }
+.status-cancelado { background-color: #6c757d; color: #fff; }
+
+/* Tabela */
+.table {
+    background-color: white;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+footer h5 {
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+/* Espaços */
+.espaco-card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.espaco-card:hover {
+    transform: translateY(-5px);
+}
+
+.espaco-card .card-body {
+    padding: 1.5rem;
+}
+
+.espaco-card .card-title {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* Dashboard */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}

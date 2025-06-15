@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confirmação</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <style>
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+  Swal.fire({
+    title: 'Sala criada com sucesso!',
+    text: 'A sala foi adicionada ao sistema.',
+    icon: 'success',
+    background: '#1e1e1e',
+    color: '#fff',
+    confirmButtonColor: 'hsl(0, 0%, 46%)',
+    confirmButtonText: 'Voltar',
+  }).then(() => {
+    window.location.href = 'salas_admin.html'; // ou onde quiser voltar
+  });
+</script>
+
+</body>
+</html>
